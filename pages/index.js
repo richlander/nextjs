@@ -12,6 +12,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
+        <Image
+        loader={myLoader}
+        src="dotnet-bot_paragliding.png"
+        alt="Picture of the author"
+        width={500}
+        height={500}
+        />
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
