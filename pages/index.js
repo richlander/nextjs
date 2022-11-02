@@ -13,16 +13,16 @@ export default function Home() {
 
       <main className={styles.main}>
 
+        <h1 className={styles.title}>
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        </h1>
+
         <Image
-        src="dotnet-bot_paragliding.png"
+        src="/IMG_0266.png"
         alt="Picture of the author"
         width={500}
         height={500}
         />
-
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
