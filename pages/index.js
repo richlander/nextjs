@@ -14,7 +14,6 @@ export default function Home() {
       <main className={styles.main}>
 
         <Image
-        loader={myLoader}
         src="dotnet-bot_paragliding.png"
         alt="Picture of the author"
         width={500}
